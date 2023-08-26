@@ -3073,6 +3073,11 @@ input, select, textarea {
 					width: 12em;
 				}
 
+			.spotlight .major.special.rt-head{
+				/* text-align: end;
+				margin-left: 35%; */
+			}
+
 		}
 
 	.spotlight .image {
