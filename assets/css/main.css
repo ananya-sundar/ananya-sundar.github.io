@@ -3010,15 +3010,26 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 10em;
 			}
+			
+		@media screen and (min-width: 980px) {
 
-		.spotlight .rt {
-			margin-left: 0em;
-			margin-right: 4em;
-		}
+			.spotlight.rt{
+				flex-direction: row-reverse;
+				justify-items: end;
+				text-align: end;
+			}
 
-		.spotlight .major.special.rt-head{
-			text-align: end;
-			margin-left: 35%;
+			.spotlight .rt {
+				margin-left: 0em;
+				margin-right: 4em;
+			}
+
+			.spotlight .major.special.rt-head{
+				justify-self: end !important;
+				text-align: end;
+				margin-left: 35%;
+			}
+			
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3072,11 +3083,6 @@ input, select, textarea {
 				.spotlight .image img {
 					width: 12em;
 				}
-
-			.spotlight .major.special.rt-head{
-				/* text-align: end;
-				margin-left: 35%; */
-			}
 
 		}
 
