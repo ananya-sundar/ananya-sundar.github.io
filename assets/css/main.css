@@ -2630,6 +2630,37 @@ input, select, textarea {
 				padding-right: 0 !important;
 			}
 
+	.contacts {
+		cursor: default;
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	
+	.contacts .icon.alt {
+		border: solid 0px;
+	}
+	
+		.contacts li {
+			text-align: center;
+			position: relative;
+			margin-bottom: 10%;
+		}
+	
+			.contacts li a {
+				display: block;
+			}
+	
+	.icon-text {
+		margin-top: 0.25em; /* Adjust margin as needed */
+		font-size: 50%;
+		position: absolute;
+		bottom: -1em; /* Adjust the vertical position as needed */
+		left: 0;
+		right: 0;
+	}
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -3142,7 +3173,8 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					max-width: 25%;
+					border-radius: 100%;
 				}
 
 		@media screen and (max-width: 1280px) {
